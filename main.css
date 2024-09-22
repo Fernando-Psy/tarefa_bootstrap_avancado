@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(235,183,206, 0.6);
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.romeu {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url('imagens/florheader.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bg-light {
+    border-radius: 10px;
+}
+
+.frase-impacto {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    padding: 16px;
+    font-size: 1.5em;
+}
+
+#produtos {
+    padding-top: 16px;
+}
+
+.btn-minha-cor {
+    background-color: red;
+}
